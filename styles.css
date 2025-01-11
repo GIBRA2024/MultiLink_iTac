@@ -54,14 +54,23 @@ p {
     transition: background-color 0.3s;
     margin: 20px auto;
     width: 350px;
+    height: 52px;
     text-align: left;
     font-size: 20px;
     border: none;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
 .social-buttons a img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+
+button img {
     vertical-align: middle;
     margin-right: 10px;
     width: 20px;
